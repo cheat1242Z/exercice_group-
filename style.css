@@ -1,0 +1,42 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Corps de la page */
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4f46e5, #2563eb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Section Welcome */
+.Welcome {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  text-align: center;
+  width: 90%;
+  max-width: 520px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.25);
+}
+
+/* Titre */
+.Welcome h1 {
+  color: #1e3a8a;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+/* Message */
+#mess {
+  font-size: 17px;
+  color: #374151;
+  line-height: 1.7;
+  min-height: 24px; /* garde l'espace même si vide */
+}
